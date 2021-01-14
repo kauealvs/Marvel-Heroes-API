@@ -1,4 +1,4 @@
-let number = 20;
+let number = 100;
 let marvelHero = document.querySelector(".hero-list");
 const div = document.createElement('div');
 const API = `https://gateway.marvel.com:443/v1/public/characters?ts=1&limit=${number}&apikey=7e99323b2679072c3e1119052f1aca13&hash=779d449f29c113e00feddbada3e680af`;
