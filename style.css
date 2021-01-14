@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heroe-title {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+    background-color: #2a3b30;
+    padding-top: 25px;
+}
+
+.hero-list{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+}
+
+.hero{
+    margin: 20px 20px;
+}
+
+.hero h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+.hero-list img{
+    width: 45vh;
+    border-radius: 20%;
+    height: 45vh;
+}
+
+section .title img{
+    width: 120%;
+    margin-bottom: 25px;
+}
+
+.hero-select{
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.hero-select input{
+    margin-top: 20px;
+    border-radius: 5%;
+    border: none;
+    width: 75vh;
+    height: 5vh;
+}
